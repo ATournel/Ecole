@@ -1,27 +1,24 @@
 
 import java.util.*;
 
-/**
- * 
- */
+
 public class Administratif extends Personne {
 
-	/**
-	 * Default constructor
-	 */
-	public Administratif() {
+	public String poste;
+	
+	
+	public String getPoste() {
+		return poste;
 	}
 
-	/**
-	 * 
-	 */
-	public String poste;
 
-	/**
-	 * 
-	 */
+	public void setPoste(String poste) {
+		this.poste = poste;
+	}
+
+
 	public void reassigner() {
-		// TODO implement here
+		
 	}
 
 }
